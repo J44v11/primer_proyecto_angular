@@ -1,8 +1,8 @@
 <div class="contenedor">
-  <h1>🛒 Mi Lista de la Compra</h1>
+  <h1>Mi Lista de la Compra</h1>
 
   <div class="caja-entrada">
-    <input type="text" #inputProducto placeholder="Ej. Manzanas, pan..." (keyup.enter)="agregar(inputProducto.value); inputProducto.value = ''">
+    <input type="text" #inputProducto (keyup.enter)="agregar(inputProducto.value); inputProducto.value = ''">
     
     <button (click)="agregar(inputProducto.value); inputProducto.value = ''">
       Añadir
