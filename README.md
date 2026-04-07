@@ -1,59 +1,81 @@
-# PrimerProyectoAngular
+# 🚀 First Angular Project (Primer Proyecto Angular)
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.2.6.
+This is a simple web application built with Angular. This guide provides the necessary steps to set up the development environment and run the project locally.
 
-## Development server
+## 🛠️ Prerequisites
 
-To start a local development server, run:
+Before you begin, ensure you have the following installed on your local machine:
 
-```bash
-ng serve
-```
+* **Node.js** (version 24.14.1 or higher)
+* **Angular CLI** (version 21.2.6 or higher)
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
-
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+**How to verify your installations:**
+Run the following commands in your terminal to check if you already have them installed and to see their versions:
 
 ```bash
-ng generate component component-name
+npm -v
+node -v
+ng v
 ```
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+## ⚙️ Installation and Setup
+
+Follow these steps to get the project running on your local environment:
+
+**1. Install Angular CLI (if you don't have it installed):**
+If the previous `ng v` command failed, you need to install Angular CLI globally using npm:
 
 ```bash
-ng generate --help
+npm install -g @angular/cli@21.2.6
 ```
 
-## Building
-
-To build the project run:
+**2. Clone the repository:**
 
 ```bash
-ng build
+git clone <https://github.com/J44v11/primer_proyecto_angular>
 ```
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Vitest](https://vitest.dev/) test runner, use the following command:
+**3. Navigate to the project directory:**
 
 ```bash
-ng test
+cd PRIMER_PROYECTO_ANGULAR
 ```
 
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
+**4. Install npm dependencies:**
 
 ```bash
-ng e2e
+npm install
 ```
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+**5. Start the development server:**
 
-## Additional Resources
+```bash
+npm run start
+```
 
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+*Note: Once the server is running, you can view the application by opening your web browser and navigating to `http://localhost:4200/`.*
+
+## 📂 Project Structure
+
+Here is a simplified overview of the most important folders and files in this project:
+
+```text
+PRIMER_PROYECTO_ANGULAR/
+├── node_modules/           # Project dependencies
+├── public/                 # Public static assets
+├── src/                    # Source code of the application
+│   ├── app/                # Main application components
+│   ├── index.html          # Main HTML entry point
+│   ├── main.ts             # Main execution point for the app
+│   └── styles.css          # Global stylesheet
+├── angular.json            # Angular CLI configuration
+├── package.json            # npm scripts and dependencies
+└── README.md               # Project documentation
+```
+
+## 📞 Contact & Support
+
+If you encounter any issues during the installation process, or if you have any questions or feedback about the project, feel free to reach out!
+
+* **Email:** [javiergarcialopez109@gmail.com]
+* **GitHub:** [https://github.com/J44v11]
