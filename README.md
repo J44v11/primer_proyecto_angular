@@ -25,7 +25,7 @@ Follow these steps to get the project running on your local environment:
 **1. Clone the repository:**
 
 ```bash
-git clone <https://github.com/J44v11/primer_proyecto_angular>
+git clone https://github.com/J44v11/primer_proyecto_angular
 ```
 
 **2. Navigate to the project directory:**
