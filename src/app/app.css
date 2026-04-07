@@ -1,0 +1,62 @@
+.contenedor {
+  font-family: Arial, sans-serif;
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  background-color: #fcfcfc;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+.caja-entrada {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px 15px;
+  background-color: #ff6b6b;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #ff4c4c;
+}
+
+ul {
+  list-style-type: none; /* Con esto quitamos los puntos de la lista */
+  padding: 0;
+}
+
+li {
+  padding: 12px;
+  background-color: white;
+  border: 1px solid #eee;
+  border-radius: 5px;
+  margin-bottom: 5px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+}
+
+.vacio {
+  text-align: center;
+  color: #888;
+  font-style: italic;
+}

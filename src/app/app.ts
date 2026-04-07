@@ -1,13 +1,21 @@
-import { Component, signal } from '@angular/core';
+import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { NgClass } from "../../node_modules/@angular/common/types/_common_module-chunk";
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, NgClass],
+  imports: [RouterOutlet],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })
 export class App {
-  nombreProyecto = 'primer_proyecto_angular';
+  //Creo nuestra lista vacia. Un array de strings
+  listaCompra: string[] = [];
+
+  // Creo una funcion para añadir un producto a la lista (agregar un string a nuestro array)
+  agregar(nuevoProducto: string) {
+    // Hacemos una validacion para evitar agregar productos vacios o solo con espacios
+    if (nuevoProducto.trim() !== "") {
+      this.listaCompra.push(nuevoProducto); // La funcion push añade el nuevo producto al final de la lista
+    }
+  }
 }
