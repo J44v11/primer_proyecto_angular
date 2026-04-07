@@ -22,32 +22,25 @@ ng v
 
 Follow these steps to get the project running on your local environment:
 
-**1. Install Angular CLI (if you don't have it installed):**
-If the previous `ng v` command failed, you need to install Angular CLI globally using npm:
-
-```bash
-npm install -g @angular/cli@21.2.6
-```
-
-**2. Clone the repository:**
+**1. Clone the repository:**
 
 ```bash
 git clone <https://github.com/J44v11/primer_proyecto_angular>
 ```
 
-**3. Navigate to the project directory:**
+**2. Navigate to the project directory:**
 
 ```bash
 cd PRIMER_PROYECTO_ANGULAR
 ```
 
-**4. Install npm dependencies:**
+**3. Install npm dependencies:**
 
 ```bash
 npm install
 ```
 
-**5. Start the development server:**
+**4. Start the development server:**
 
 ```bash
 npm run start
